@@ -1,0 +1,91 @@
+﻿body {
+    
+}
+.ZBCLogo{
+   
+    border: 2px solid black;
+    position:absolute;
+    left:100px;
+    top:50px;
+    height:70px;
+    width:130px;
+    border-radius: 10px;
+}
+.NavBar{
+    position:absolute;
+    left:450px;
+    top:150px;
+    height:50px;
+    width:30%;
+    border: 1px solid black;
+}
+
+
+.Scrollbar {
+    font-family: arial;
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+ul {
+    list-style: none;
+    max-height: 400px;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    text-indent: 10px;
+}
+
+li {
+    line-height: 25px;
+    background-color: gray;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+    li:nth-child(even) {
+        background: white;
+    }
+
+.HoverImage{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    position:absolute;
+    left: 800px;
+    top: 300px;
+    border-radius: 25px;
+    visibility: hidden;
+}
+.HoverImage2 {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    border-radius: 25px;
+    visibility: hidden;
+}
+.UddLink{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 800px;
+    top: 650px;
+    border-radius: 10px;
+}
+
+.Checkbox{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 920px;
+    top: 150px;
+}
