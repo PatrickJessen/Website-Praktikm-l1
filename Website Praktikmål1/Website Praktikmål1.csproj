@@ -71,6 +71,7 @@
     <Content Include="index.html" />
     <Content Include="JavaScript.js" />
     <Content Include="LearningCSS.html" />
+    <Content Include="Site2.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="ZBClogo\zbc_black.jpg" />
