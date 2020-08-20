@@ -1,0 +1,120 @@
+﻿
+.main {
+}
+
+
+
+.header {
+    width: 100%;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: 180%;
+}
+
+.logo {
+    float: right;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: absolute;
+    top: 36pt;
+    right: 85%;
+    overflow: hidden;
+    display: block;
+}
+
+
+
+
+.body {
+    border: double;
+    background-color: white;
+}
+
+.containerBody {
+    position: relative;
+    float: left;
+    padding: 0px;
+    border: double;
+    width: 32%;
+    height: 32%;
+}
+
+.forløbne {
+}
+
+.forløb {
+    position: relative;
+    float: left;
+    padding: 0px;
+    border: double;
+    height: 32%;
+}
+
+#Forløb0 {
+    width: 30%;
+    margin-left: 1%;
+    background-color: #87CEFA;
+}
+
+#Forløb1 {
+    width: 48%;
+    margin-left: 1%;
+    background-color: #778899;
+}
+
+#Forløb2 {
+    width: 48%;
+    margin-left: 1%;
+    background-color: #FFDEAD;
+}
+
+#BlueColor {
+    background-color: #87CEFA;
+}
+
+#GreyColor {
+    background-color: #778899;
+    margin-left: 1%;
+}
+
+#YellowColor {
+    background-color: #FFDEAD;
+    margin-left: 1%;
+}
+
+.tips {
+    border-style: solid;
+    background-color: white;
+}
+
+.målpind {
+    border-style: solid;
+    background-color: white;
+}
+
+.drops {
+}
+
+.drop {
+}
+
+
+
+
+
+.footer {
+}
+
+.row {
+    display: flex;
+}
+
+.h2 {
+    font-size: 15px;
+}
