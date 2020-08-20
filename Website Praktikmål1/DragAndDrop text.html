@@ -5,17 +5,11 @@
 </head>
 <body>
 
-    <p>Drag And Drop Text - Dem Der Ved Det Ved Det</p>
-
-    <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Flyt mig hvis du tør</p>
+    <div id="parent">
+        <div id="box1" class="common" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">VAREMODTAGELSE</div>
+        <div id="box2" class="common" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">PRODUKTION OG TILBEREDNINGSTEKNIK</div>
+        <div id="box3" class="common" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">ANRETNING OG SEVERING</div>
     </div>
-
-    <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-
-    <p style="clear:both;"><strong>Vigtigt</strong>  Pas på. ikke for børn  </p>
-
-    <p id="demo"></p>
 
     <script src="JavaScript.js"></script>
 

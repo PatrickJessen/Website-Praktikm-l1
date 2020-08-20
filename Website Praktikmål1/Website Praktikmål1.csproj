@@ -70,7 +70,6 @@
     <Content Include="DragAndDrop text.html" />
     <Content Include="index.html" />
     <Content Include="JavaScript.js" />
-    <Content Include="LearningCSS.html" />
     <Content Include="Style.css" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
