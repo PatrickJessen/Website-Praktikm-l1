@@ -67,9 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DragAndDrop text.html" />
     <Content Include="index.html" />
+    <Content Include="JavaScript.js" />
     <Content Include="LearningCSS.html" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
+    <Content Include="ZBClogo\zbc_black.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

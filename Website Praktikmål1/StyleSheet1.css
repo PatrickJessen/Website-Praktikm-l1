@@ -1,0 +1,12 @@
+﻿body { 
+
+}
+
+.droptarget {
+    float: left;
+    width: 100px;
+    height: 55px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
