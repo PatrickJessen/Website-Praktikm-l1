@@ -1,11 +1,75 @@
-﻿body {
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+   overflow:hidden;
+   
 }
 nav ul {
-    height: 200px;
+    height: 500px;
     width: 18%;
+
+    
 }
 
 nav ul {
     overflow: hidden;
     overflow-y: scroll;
+    list-style:none;
+   
+}
+
+.ZBCLOGO{
+    height:7.2em;
+    
+    border:solid;
+    border-radius:10px;
+  
+}
+.Checkbox{
+   position:relative;
+   left:50%;
+   transform:scale(4);
+}
+.Uddnavn{
+    border:solid;
+    height:auto;
+   width:20%;
+   position:relative;
+   left:40%;
+   bottom:30px;
+   background-color:white;
+ 
+}
+.background1{
+    background-color:grey;
+   
+}
+.hoverimage{
+    border:solid;
+    border-radius:10px;
+    position:relative;
+    left:50%;
+    top:-300px;
+}
+.link{
+    border:solid;
+    border-radius:10px;
+    height:auto;
+    width:30%;
+    position:relative;
+    left:50%;
+   top:-250px;
+}
+.Scrollbar{
+    background-color:white;
+ margin-left:10px;
+ 
+}
+.Scrollbar li{
+    border:1px solid black;
+    
 }
