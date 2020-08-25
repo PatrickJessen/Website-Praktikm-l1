@@ -11,15 +11,14 @@ body {
 nav ul {
     height: 500px;
     width: 18%;
-
     
 }
 
 nav ul {
     overflow: hidden;
     overflow-y: scroll;
-    list-style:none;
-   
+    list-style: none;
+    
 }
 
 .ZBCLOGO{
@@ -48,12 +47,21 @@ nav ul {
     background-color:grey;
    
 }
-.hoverimage{
-    border:solid;
-    border-radius:10px;
-    position:relative;
-    left:50%;
-    top:-300px;
+.HoverImage {
+    visibility: hidden;
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+    left: 41.2%;
+    top: -300px;
+}
+.HoverImage2 {
+    visibility: hidden;
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+    top: -300px;
+    
 }
 .link{
     border:solid;
@@ -64,12 +72,11 @@ nav ul {
     left:50%;
    top:-250px;
 }
-.Scrollbar{
-    background-color:white;
- margin-left:10px;
- 
+.Scrollbar {
+    background-color: white;
+    margin-left: 10px;
+    
 }
 .Scrollbar li{
     border:1px solid black;
-    
 }
