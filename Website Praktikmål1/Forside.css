@@ -23,7 +23,8 @@ nav ul {
 
 .ZBCLOGO{
     height:7.2em;
-    
+    margin-top:10px;
+    margin-left:10px;
     border:solid;
     border-radius:10px;
   
@@ -47,7 +48,7 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 input[type=text]:focus{
-    width:33.4%;
+    width:50%;
 }
 .Uddnavn{
     border:solid;
