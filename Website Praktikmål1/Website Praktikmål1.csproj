@@ -67,17 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App.js" />
-    <Content Include="Forside.css" />
-    <Content Include="Index.html" />
-    <Content Include="stivdiller.png" />
+    <Content Include="index.html" />
+    <Content Include="JavaScript.js" />
+    <Content Include="StyleSheetPraktikMål.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
