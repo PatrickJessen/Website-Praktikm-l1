@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="JavaScript.js" />
+    <Content Include="StyleSheetPraktikMål.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

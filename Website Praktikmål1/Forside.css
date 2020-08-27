@@ -1,0 +1,152 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+  
+   overflow:hidden;
+}
+nav ul {
+    height:600px;
+    width: 18%;
+    
+}
+
+nav ul {
+    overflow: hidden;
+    overflow-y: scroll;
+    list-style: none;
+    
+}
+
+.ZBCLOGO{
+    height:7.2em;
+    margin-top:10px;
+    margin-left:10px;
+    border:solid;
+    border-radius:10px;
+  
+}
+.Checkbox{
+   position:relative;
+   left:45%;
+   transform:scale(4);
+   bottom:26px;
+}
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus{
+    width:50%;
+}
+.Uddnavn{
+    border:solid;
+    height:40px;
+   width:20%;
+   position:relative;
+   left:20%;
+   bottom:30px;
+   background-color:white;
+ 
+}
+.background1{
+    background-color:skyblue;
+ 
+
+}
+.Billeder {
+   position:relative;
+   
+   left:30%;
+   top:-500px;
+
+}
+.HoverImage{
+    visibility:hidden;
+    position:absolute;
+    border:solid;
+    border-radius:10px;
+    width:26.7cm;
+    height:10.21cm;
+ 
+}
+.HoverImage2 {
+    visibility: hidden;
+    position: absolute;
+    border:solid;
+    border-radius:10px;
+    width:26.7cm;
+    height:10.21cm;
+}
+
+.HoverImage3 {
+    visibility: hidden;
+    position: absolute;
+    height: 10.21cm;
+    width: 26.7cm;
+    border: solid;
+    border-radius: 10px;
+}
+
+.HoverImage4 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+.HoverImage5 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+.HoverImage6 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+.HoverImage7 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+
+.Scrollbar {
+    background-color:white;
+   font-size:20px;
+    
+    
+}
+.Scrollbar li{
+    border:1px solid black;
+
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:red;
+}
