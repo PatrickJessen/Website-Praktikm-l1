@@ -67,6 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dropapp.js" />
+    <Content Include="drops.html" />
+    <Content Include="dropstyle.css" />
+    <Content Include="index.html" />
+    <Content Include="JavaScript.js" />
+    <Content Include="Resources\zbcogo.jpg" />
+    <Content Include="Style.css" />
     <Content Include="App.js" />
     <Content Include="Forside.css" />
     <Content Include="main.html" />
@@ -84,6 +91,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
