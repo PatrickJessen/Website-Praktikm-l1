@@ -69,8 +69,7 @@
   <ItemGroup>
     <Content Include="App.js" />
     <Content Include="Forside.css" />
-    <Content Include="index.html" />
-    <Content Include="JavaScript.js" />
+    <Content Include="main.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
