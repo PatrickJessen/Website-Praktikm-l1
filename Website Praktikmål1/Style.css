@@ -1,59 +1,61 @@
-﻿
-.main{
-
+﻿.main {
+    width: 100%;
 }
-
-
-
+/*Header*/
 .header{
+    float:left;
     width: 100%;
     height:200px;
-    border: 1px solid blue;
 }
 .mainTitle {
+    float:right;
     text-align: center;
-    font-size: 180%;
+    font-size: 140%;
+    width: 85%;
 }
 .logo {
     float: right;
-    border: 1px solid;
+    width: 150px;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
     position: absolute;
     top: 36pt;
     right: 85%;
     overflow: hidden;
     display: block;
 }
-
-
-
-
+/*Body*/
 .body {
-    border: double;
+    float: left;
+    width: 100%;
     background-color: white;
 }
+/*skal have lavet en hvid kant rundt om ContainerBody*/
+/*ContainerBody*/
 .containerBody {
-    position: relative;
     float: left;
-    padding: 0px;
-    border: double;
     width: 32%;
-    height: 32%;
+    height: 30%;
+    margin: 0.5%;
+  border-radius: 25px;
+  border: 2px solid black;
 }
-.forløbne{
-
+/*Forløbne*/
+.forløbne {
+    float: left;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
 }
-.forløb{
-    position: relative;
+/*Forløb*/
+.forløb {
     float: left;
     padding: 0px;
-    border: double;
-    height: 32%;
+    text-align: center;
 }
 #Forløb0 {
-    width: 30%;
+    width: 32%;
     margin-left: 1%;
     background-color: #87CEFA;
 }
@@ -72,33 +74,105 @@
 }
 #GreyColor {
     background-color: #778899;
-    margin-left: 1%;
 }
 #YellowColor {
     background-color: #FFDEAD;
-    margin-left: 1%;
 }
+
+/*Tips*/
 .tips {
-    border-style: solid;
+    float: left;
+    width: 100%;
     background-color: white;
+    border-bottom: groove;
+    border-top:groove;
 }
+#TipsTitle {
+    text-align: center;
+}
+
+/*Målpind*/
 .målpind {
-    border-style: solid;
+    float: left;
+    width: 100%;
     background-color: white;
+    border-bottom: groove;
 }
-.drops{
+.tekst-left{
+    float: left;
+}
+.tekst-right {
+    float: right;
+}
+
+
+/*Drops*/
+.drops {
+    float: left;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 0.5%;
+    min-height: 400px;
+}
+/*Drop*/
+.drop {
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
 
 }
-.drop{
 
+
+/*drag and drop*/
+.dropTitle{
+    border-bottom:groove;
+}
+
+
+.dragContainer1 {
+    border: 1px solid black;
+    width: 5%;
+    min-height 100px;
+    list-style: none;
+}
+.dragContainer2 {
+    border: 1px solid black;
+    width: 5%;
+    min-height 100px;
+    float: left;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    list-style: none;
+}
+.dragContainer3 {
+    border: 1px solid black;
+    width: 5%;
+    min-height 100px;
+    float: left;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    list-style: none;
 }
 
 
 
 
 
-.footer{
 
+
+
+
+.checkbox{
+    text-align:right;
+}
+
+
+/*Footer*/
+.footer {
+    float: left;
+    width: 100%;
 }
 .row {
     display: flex;
