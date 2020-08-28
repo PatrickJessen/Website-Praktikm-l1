@@ -70,7 +70,14 @@ nav ul {
 
     top: -550px;
 }
+.HoverImageStatic {
 
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: 26.7cm;
+    height: 10.21cm;
+}
 .HoverImage {
     visibility: hidden;
     position: absolute;
@@ -139,9 +146,6 @@ a {
     color: black;
 }
 
-    a:hover {
-        color: red;
-    }
 /*FOOTER*/
 .footer {
     height: 100vh;
