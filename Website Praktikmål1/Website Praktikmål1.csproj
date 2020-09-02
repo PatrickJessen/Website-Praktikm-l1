@@ -71,6 +71,7 @@
     <Content Include="drops.html" />
     <Content Include="dropstyle.css" />
     <Content Include="index.html" />
+    <Content Include="index2.html" />
     <Content Include="JavaScript.js" />
     <Content Include="Resources\zbcogo.jpg" />
     <Content Include="Style.css" />
