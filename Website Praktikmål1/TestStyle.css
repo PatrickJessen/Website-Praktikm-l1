@@ -1,18 +1,23 @@
-﻿.main {
+﻿/*//Body*/
+.main {
     width: 100%;
+    height: 100%;
 }
 /*Header*/
-.header{
-    float:left;
+/*//Header*/
+.header {
+    float: left;
     width: 100%;
-    height:200px;
+    height: 200px;
 }
+
 .mainTitle {
-    float:right;
+    float: right;
     text-align: center;
     font-size: 140%;
     width: 85%;
 }
+
 .logo {
     float: right;
     width: 150px;
@@ -25,6 +30,7 @@
     display: block;
 }
 /*Body*/
+/*//App*/
 .body {
     float: left;
     width: 100%;
@@ -37,8 +43,8 @@
     width: 32%;
     height: 30%;
     margin: 0.5%;
-  border-radius: 25px;
-  border: 2px solid black;
+    border-radius: 25px;
+    border: 2px solid black;
 }
 /*Forløbne*/
 .forløbne {
@@ -46,35 +52,19 @@
     width: 100%;
     color: black;
     background-color: white;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
-/*Forløb*/
-.forløb {
-    float: left;
-    padding: 0px;
-    text-align: center;
-}
-#Forløb0 {
-    width: 32%;
-    margin-left: 1%;
-    background-color: #87CEFA;
-}
-#Forløb1 {
-    width: 48%;
-    margin-left: 1%;
-    background-color: #778899;
-}
-#Forløb2 {
-    width: 48%;
-    margin-left: 1%;
-    background-color: #FFDEAD;
-}
+
+
 #BlueColor {
     background-color: #87CEFA;
 }
+
 #GreyColor {
     background-color: #778899;
 }
+
 #YellowColor {
     background-color: #FFDEAD;
 }
@@ -83,10 +73,12 @@
 .tips {
     float: left;
     width: 100%;
+    min-height: 450px;
     background-color: white;
     border-bottom: groove;
-    border-top:groove;
+    border-top: groove;
 }
+
 #TipsTitle {
     text-align: center;
 }
@@ -98,15 +90,18 @@
     background-color: white;
     border-bottom: groove;
 }
-.tekst-left{
+
+.tekst-left {
     float: left;
 }
+
 .tekst-right {
     float: right;
 }
 
 
 /*Drops*/
+/*//Lists*/
 .drops {
     float: left;
     width: 100%;
@@ -116,16 +111,16 @@
     min-height: 400px;
 }
 /*Drop*/
+/*//List-item*/
 .drop {
     border-collapse: collapse;
     border-bottom: 1px solid black;
-
 }
 
 
 /*drag and drop*/
-.dropTitle{
-    border-bottom:groove;
+.dropTitle {
+    border-bottom: groove;
 }
 
 
@@ -135,6 +130,7 @@
     min-height 100px;
     list-style: none;
 }
+
 .dragContainer2 {
     border: 1px solid black;
     width: 5%;
@@ -145,6 +141,7 @@
     left: 10%;
     list-style: none;
 }
+
 .dragContainer3 {
     border: 1px solid black;
     width: 5%;
@@ -164,8 +161,8 @@
 
 
 
-.checkbox{
-    text-align:right;
+.checkbox {
+    text-align: right;
 }
 
 
@@ -174,10 +171,11 @@
     float: left;
     width: 100%;
 }
+
 .row {
     display: flex;
 }
-.h2
-{
+
+.h2 {
     font-size: 15px;
 }

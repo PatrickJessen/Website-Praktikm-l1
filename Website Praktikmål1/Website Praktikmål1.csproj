@@ -67,13 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dropapp.js" />
-    <Content Include="drops.html" />
-    <Content Include="dropstyle.css" />
-    <Content Include="index.html" />
-    <Content Include="JavaScript.js" />
+    <Content Include="TestJS.js" />
+    <Content Include="TestStyle.css" />
+    <Content Include="Index.html" />
     <Content Include="Resources\zbcogo.jpg" />
-    <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
