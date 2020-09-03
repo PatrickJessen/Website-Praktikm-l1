@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="TestJS.js" />
     <Content Include="TestStyle.css" />
-    <Content Include="Index.html" />
+    <Content Include="test.html" />
     <Content Include="Resources\zbcogo.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
