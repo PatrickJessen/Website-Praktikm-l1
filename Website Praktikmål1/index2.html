@@ -2,40 +2,39 @@
 <html>
 <head>
     <link rel="stylesheet" href="TestStyle.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
-    
-    <title></title>
+    <title>Drag n Drop</title>
 </head>
 <body>
     <div class="main">
-
+        <!--Header-->
         <div class="header">
+            <div class="print">
+                <i class="fa fa-print" onclick="window.print();"></i>
+            </div>
             <div class="mainTitle">
                 <h1>OVERBLIK OVER PRAKTIKMÅL PÅ PERSONVOGNSMEKANIKER</h1>
             </div>
             <div>
                 <a href="main.html"> <img class="logo" src="Resources/zbcogo.jpg" alt="zbclogo" /></a>
-
             </div>
-
         </div>
-
+        <!--Body-->
         <div class="body">
             <!-- blue container -->
             <div class="containerBody">
-
                 <!-- Forløb oversigt -->
-                <div class="forløbne">
-                    <div class="forløb" id="Forløb0">
+                <div class="forløbne" id="BlueColor">
+                    <div class="forløb">
                         <h3>Grundforløb 2</h3>
                         <h3>- varihed: 20 uger</h3>
                     </div>
-                    <div class="forløb" id="Forløb0">
+                    <div class="forløb">
                         <h3>1. Praktik i virksomhed</h3>
                         <h3> </h3>
                     </div>
-                    <div class="forløb" id="Forløb0">
+                    <div class="forløb">
                         <h3>1. Skoleperiode</h3>
                         <h3>- Varighed: 10 uger</h3>
                     </div>
@@ -90,114 +89,156 @@
                 <!-- Målpinde for 1. praktikperiode -->
                 <div class="målpind">
                     <div class="tekst-left">
-                        <h2>MÅLPINDE FOR 1. PRAKTIKPERIODE</h2>
+                        <h3>MÅLPINDE FOR 1. PRAKTIKPERIODE</h3>
                     </div>
                     <div class="tekst-right">
-                        <h2>SÆT KRYDS</h2>
+                        <h3>SÆT KRYDS</h3>
                     </div>
 
                 </div>
-                <!-- Tekster der skal kunne droppes -->
+                <!-- Drops -->
                 <div class="drops" id="BlueColor">
-                    <p class="dropTitle" ondragover="dragTest(event)">Drop her under</p>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8889 Anvendelse af manualer og værkstedshåndbøger</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Udføre service og reparation ud fra anvendelse af manualer og værksteds-håndbøger på dansk og mindst et fremmedsprog
-                            </li>
-                        </ol>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8891 Udv. i kvalitet, produktivitet og en god økonomi</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Gennemføre de daglige opgaver i samarbejde med kolleger og medvirke til at sikre udvikling i kvalitet, produktivitet og en
-                                god økonomi på værkstedet
-                            </li>
-                        </ol>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8892 Kundeservice</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Udvise god kundeservice, herunder dokumentation for arbejdet og kommu-nikation om det udførte arbejde
-                            </li>
-                        </ol>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8893 Bremsesystemer</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Udføre eftersyn, fejlfinding, reparation og vedligeholdelse på personvognes bremsesystemer herunder redegøre for en
-                                grundlæggende viden om ABS-bremsers opbygning og funktion
-                            </li>
-
-                        </ol>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8895 Styretøj og undervogn</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Udføre eftersyn, fejlfinding, reparation og vedligeholdelse på personvognes styretøj og undervogn, herunder udmåling og
-                                justering af hjulvinkler samt eftersyn og reparation af hjulophæng, affjedringskomponenter, fælge og dæk
-                            </li>
-                        </ol>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8896 Transmission</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Udføre af fejlfinding, reparation og vedligeholdelse på personvognes transmission herunder reparation af kobling og
-                                kraftoverføringsaksler
-                            </li>
-
-                        </ol>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8897 Diesel- og benzinmotorer</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox">Udføre ukomplicerede fejlfindings- og reparationsopgaver på personvognes diesel- og benzinmotorer på baggrund af en
-                                grundlæggende viden om diesel- og benzinmotorers opbygning og virkemåde, herunder kontrol og reparationer på køle- og
-                                smøresystemer
-                            </li>
-
-
-                        </ol>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8898 Køle- og smøresystemer</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox" />Udføre kontrol og reparationer på køle- og smøresystemer
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8899 Køle- og airconditionanlæg</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox" />Udføre service på køle- og airconditionanlæg
-                            </li>
-                        </ol>
-                    </div>
-                   
 
                 </div>
             </div>
 
             <!-- GreyColor container -->
             <div class="containerBody">
-
-
                 <!-- Forløb oversigt -->
-                <div class="forløbne">
-                    <div class="forløb" id="Forløb1">
+                <div class="forløbne" id="GreyColor">
+                    <div class="forløb">
+                        <h3> </h3>
+                    </div>
+                    <div class="forløb">
                         <h3>2. Praktik i virksomhed</h3>
                         <h3> </h3>
                     </div>
-                    <div class="forløb" id="Forløb1">
+                    <div class="forløb">
                         <h3>2. Skoleperiode</h3>
                         <h3>- Varighed: 10 uger</h3>
                     </div>
@@ -239,105 +280,180 @@
                 <!-- Målpinde for 2. praktikperiode -->
                 <div class="målpind">
                     <div class="tekst-left">
-                        <h2>MÅLPINDE FOR 1. PRAKTIKPERIODE</h2>
+                        <h3>MÅLPINDE FOR 1. PRAKTIKPERIODE</h3>
                     </div>
                     <div class="tekst-right">
-                        <h2>SÆT KRYDS</h2>
+                        <h3>SÆT KRYDS</h3>
                     </div>
-
                 </div>
-                <!-- Tekster der skal kunne droppes -->
+                <!-- har ændret ordet drops til list-->
                 <div class="drops" id="GreyColor">
-                     <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8901 Lygter, tegngivningsapparater og visker/vaskeranlæg</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox" />Udføre eftersyn og reparation af lygter, tegngivningsapparater og vi-sker/vaskeranlæg på personvogne
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8902 Ukompliceret fejlfinding på elektriske systemer</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox" />Udføre ukompliceret fejlfinding på elektriske systemer på personvogne under anvendelse af relevant måle- og
-                                diagnoseudstyr på baggrund af en grundlæggende viden om måleteknik, elektronik, elektriske og elektroniske systemer på
-                                personvogne.
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <h3>8903 Service- og sikkerhedseftersyn</h3>
-                        <ol>
-                            <li>
-                                <input type="checkbox" />Gennemføre service- og sikkerhedseftersyn på personvogne
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
+                    <div class="drop" draggable="true">
                         <table>
-                            <tr>
-                                <h3>8904 Arbejde miljøbevidst</h3>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
                             </tr>
                             <tr>
-                                <td><input type="checkbox"></td>
                                 <td>
                                     <p>
-                                        Arbejde miljøbevidst med alle arbejdsopgaver inden for uddannelsens job-områder og handle i overensstemmelse med
-                                        principperne for bæredygtig udvikling
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <table>
-                            <tr>
-                                <h3>8905 Kompleks fejlfinding, rep. og vedligehold på motor</h3>
-                            </tr>
-                            <tr>
                                 <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
                                 <td>
                                     <p>
-                                        Udføre komplekse fejlfindings- og reparationsopgaver samt vedligeholdelse på benzin- og dieselmotorer, herunder
-                                        udskiftning og reparation af motorkomponenter, fejlfinding og reparationer på dieselindsprøjtningsanlæg samt
-                                        motorstyringsanlæg på benzinmotorer
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
+                                <td class="checkbox"><input type="checkbox"></td>
                             </tr>
-
                         </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
+                    <div class="drop" draggable="true">
                         <table>
-                            <tr>
-                                <h3>8906 Fejlfinding, rep. og vedligeholdelse på bremser</h3>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
                             </tr>
                             <tr>
-                                <td><input type="checkbox"></td>
                                 <td>
                                     <p>
-                                        Udføre fejlfinding, reparation og vedligeholdelse på personvognes bremse-systemer, herunder ABS (Anti Blocking System)
-                                        -bremser med TCS (Traction Control Systems) og ESP (Electronic Stability Program).
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
-
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
                         </table>
                     </div>
-                    
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
 
             </div>
             <!-- Yellow container -->
+            <!-- har ændret ordet containerbody til lists-->
             <div class="containerBody">
-
                 <!-- Forløb oversigt -->
-                <div class="forløbne">
-                    <div class="forløb" id="Forløb2">
+                <div class="forløbne" id="YellowColor">
+                    <div class="forløb">
+                        <h3> </h3>
+                    </div>
+                    <div class="forløb">
                         <h3>3. Praktik i virksomhed</h3>
                         <h3> </h3>
                     </div>
-                    <div class="forløb" id="Forløb2">
+                    <div class="forløb">
                         <h3>3. Skoleperiode</h3>
                         <h3>- Varighed: 10 uger</h3>
                     </div>
@@ -392,100 +508,154 @@
                 <!-- Målpinde for 3. praktikperiode -->
                 <div class="målpind">
                     <div class="tekst-left">
-                        <h2>MÅLPINDE FOR 1. PRAKTIKPERIODE</h2>
+                        <h3>MÅLPINDE FOR 1. PRAKTIKPERIODE</h3>
                     </div>
                     <div class="tekst-right">
-                        <h2>SÆT KRYDS</h2>
+                        <h3>SÆT KRYDS</h3>
                     </div>
 
                 </div>
                 <!-- Tekster der skal kunne droppes -->
+                <!-- har ændret ordet drops til list-->
                 <div class="drops" id="YellowColor">
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
+                    <div class="drop" draggable="true">
                         <table>
-                            <tr>
-                                <h3>8908 Komfort- og sikkerhedsudstyr</h3>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
                             </tr>
                             <tr>
-                                <td><input type="checkbox"></td>
-                                <td><p>Udføre fejlfinding, reparation og vedligeholdelse på personvognes komfort- og sikkerhedsudstyr, herunder airbaganlæg</p></td>
-                            </tr>
-
-                        </table>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <table>
-                            <tr>
-                                <h3>8910 Fejlfinding og rep. på elbilers forsyningsdel</h3>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox"></td>
                                 <td>
                                     <p>
-                                        Udføre fejlfinding og reparation på elbilers forsyningsdel på baggrund af viden om el-sikkerhed i forbindelse med høje
-                                        værdier for jævnspænding og jævnstrøm..
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <table>
-                            <tr>
-                                <h3>8911 Styretøj og undervogn</h3>
+                                <td class="checkbox"><input type="checkbox"></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox"></td>
                                 <td>
                                     <p>
-                                        Udføre fejlfinding, reparation og vedligeholdelse på styretøj og undervogn herunder elektrohydraulisk (EHPS) og
-                                        elektromekanisk (EPS) servosty-ringsanlæg samt gennemføre 4-hjulsudmåling med elektroniske 4-hjulsudmålingsapparater
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
+                                <td class="checkbox"><input type="checkbox"></td>
                             </tr>
-
                         </table>
                     </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
+                    <div class="drop" draggable="true">
                         <table>
-                            <tr>
-                                <h3>8912 Fejlfinding, rep. og vedligehold på transmission</h3>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
                             </tr>
                             <tr>
-                                <td><input type="checkbox"></td>
                                 <td>
                                     <p>
-                                        Udføre fejlfinding, reparation og vedligeholdelse på transmission på per-sonvogne, herunder reparation af gearkasser inkl.
-                                        automatisk skift
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
-                            </tr>
-
-
-
-                        </table>
-                    </div>
-                    <div class="drop" draggable="true" ondragover="dragOver(event)" ondragstart="dragStart(event)">
-                        <table>
-                            <tr>
-                                <h3>8913 Fejlfinding og reparation på elektroniske systemer</h3>
+                                <td class="checkbox"><input type="checkbox"></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox"></td>
                                 <td>
                                     <p>
-                                        Udføre fejlfinding og reparation på personvognes elektroniske systemer ud fra en bred viden om både digital og analog
-                                        elektronik samt måleteknik fx viden om transducere, analog til digital konvertering, hardwarearkitektur med bus, CPU,
-                                        hukommelser og I/O-enheder og de særlige standarder og protokoller for datakommunikation.
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
                                     </p>
                                 </td>
+                                <td class="checkbox"><input type="checkbox"></td>
                             </tr>
                         </table>
                     </div>
-
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="drop" draggable="true">
+                        <table>
+                            <tr class="dropTitle">
+                                <h3>Produktion og Tilberedningsteknik - 18159</h3>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2. I er velkommne til at tage kontakt til skolen, hvis  du og din praktikvejleder har brug
+                                        for en 3-part-samtale eksempelvis om det kommende skoleophold.
+                                    </p>
+                                </td>
+                                <td class="checkbox"><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
 
                 </div>
-                <script src="TestJS.js"></script>
+
             </div>
+            <div class="footer">
+
+
+
+            </div>
+        </div>
+        <script src="TestJS.js"></script>
+
+
+
 </body>
 </html>
