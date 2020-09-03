@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestJS.js" />
+    <Content Include="TestStyle.css" />
+    <Content Include="test.html" />
     <Content Include="dropapp.js" />
     <Content Include="drops.html" />
     <Content Include="dropstyle.css" />

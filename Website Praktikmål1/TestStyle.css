@@ -1,0 +1,159 @@
+﻿.main {
+    width: 100%;
+    height: 100%;
+}
+/*Header*/
+.header {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+.mainTitle {
+    float: right;
+    text-align: center;
+    font-size: 140%;
+    width: 85%;
+}
+
+.logo {
+    float: right;
+    width: 150px;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    top: 36pt;
+    right: 85%;
+    overflow: hidden;
+    display: block;
+}
+
+.print {
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    -webkit-transform: scale(5);
+}
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+/*Body*/
+.body {
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+/*ContainerBody*/
+.containerBody {
+    float: left;
+    width: 32%;
+    height: 30%;
+    margin: 0.5%;
+    border-radius: 27px;
+    border: 2px solid black;
+}
+/*Forløbne*/
+.forløbne {
+    float: left;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/*Forløb*/
+.forløb {
+    width: 33%;
+    float: left;
+    padding: 0px;
+    text-align: center;
+}
+
+
+/*Tips*/
+.tips {
+    float: left;
+    width: 100%;
+    min-height: auto;
+    background-color: white;
+    border-bottom: groove;
+    border-top: groove;
+}
+
+#TipsTitle {
+    text-align: center;
+}
+
+/*Målpind*/
+.målpind {
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-bottom: groove;
+}
+
+.tekst-left {
+    float: left;
+    padding-left: 1%;
+}
+
+.tekst-right {
+    float: right;
+    padding-right: 1%;
+}
+
+
+/*Drops*/
+.drops {
+    float: left;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    min-height: 500px;
+}
+/*Drop*/
+.drop {
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.dropTitle {
+    padding-left:5%;
+}
+.dropText{
+    width: 10%;
+}
+
+
+
+
+.checkbox {
+    text-align: right;
+    -webkit-transform: scale(2); /* Safari and Chrome */
+}
+
+
+/*Footer*/
+.footer {
+    float: left;
+    width: 100%;
+}
+
+
+/*Color*/
+#BlueColor {
+    background-color: #87CEFA;
+}
+
+#GreyColor {
+    background-color: #778899;
+}
+
+#YellowColor {
+    background-color: #FFDEAD;
+}
