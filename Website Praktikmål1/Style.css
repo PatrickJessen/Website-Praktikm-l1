@@ -83,6 +83,7 @@
 .tips {
     float: left;
     width: 100%;
+    min-height:640px;
     background-color: white;
     border-bottom: groove;
     border-top:groove;
