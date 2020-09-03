@@ -1,10 +1,8 @@
-﻿/*//Body*/
-.main {
+﻿.main {
     width: 100%;
     height: 100%;
 }
 /*Header*/
-/*//Header*/
 .header {
     float: left;
     width: 100%;
@@ -30,13 +28,11 @@
     display: block;
 }
 /*Body*/
-/*//App*/
 .body {
     float: left;
     width: 100%;
     background-color: white;
 }
-/*skal have lavet en hvid kant rundt om ContainerBody*/
 /*ContainerBody*/
 .containerBody {
     float: left;
@@ -55,19 +51,14 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-
-
-#BlueColor {
-    background-color: #87CEFA;
+/*Forløb*/
+.forløb {
+    width: 33%;
+    float: left;
+    padding: 0px;
+    text-align: center;
 }
 
-#GreyColor {
-    background-color: #778899;
-}
-
-#YellowColor {
-    background-color: #FFDEAD;
-}
 
 /*Tips*/
 .tips {
@@ -101,20 +92,18 @@
 
 
 /*Drops*/
-/*//Lists*/
 .drops {
     float: left;
     width: 100%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     margin: 0 0.5%;
     min-height: 400px;
 }
 /*Drop*/
-/*//List-item*/
 .drop {
     border-collapse: collapse;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 
@@ -122,41 +111,6 @@
 .dropTitle {
     border-bottom: groove;
 }
-
-
-.dragContainer1 {
-    border: 1px solid black;
-    width: 5%;
-    min-height 100px;
-    list-style: none;
-}
-
-.dragContainer2 {
-    border: 1px solid black;
-    width: 5%;
-    min-height 100px;
-    float: left;
-    position: absolute;
-    top: 0%;
-    left: 10%;
-    list-style: none;
-}
-
-.dragContainer3 {
-    border: 1px solid black;
-    width: 5%;
-    min-height 100px;
-    float: left;
-    position: absolute;
-    top: 0%;
-    left: 20%;
-    list-style: none;
-}
-
-
-
-
-
 
 
 
@@ -172,10 +126,16 @@
     width: 100%;
 }
 
-.row {
-    display: flex;
+
+/*Color*/
+#BlueColor {
+    background-color: #87CEFA;
 }
 
-.h2 {
-    font-size: 15px;
+#GreyColor {
+    background-color: #778899;
+}
+
+#YellowColor {
+    background-color: #FFDEAD;
 }
