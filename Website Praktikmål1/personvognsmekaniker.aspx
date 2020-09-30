@@ -1,7 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="TestStyle.css" />
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="personvognsmekaniker.aspx.cs" Inherits="Website_Praktikmål1.personvognsmekaniker" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <link rel="stylesheet" href="TestStyle.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
     <title>Drag n Drop</title>
@@ -17,7 +20,7 @@
                 <h1>OVERBLIK OVER PRAKTIKMÅL PÅ PERSONVOGNSMEKANIKER</h1>
             </div>
             <div>
-                <a href="main.html"> <img class="logo" src="Resources/zbcogo.jpg" alt="zbclogo" /></a>
+                <a href="main.aspx"> <img class="logo" src="Resources/zbcogo.jpg" alt="zbclogo" /></a>
             </div>
         </div>
         <!--Body-->

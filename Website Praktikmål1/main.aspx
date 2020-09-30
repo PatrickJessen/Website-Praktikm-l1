@@ -1,16 +1,18 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="main.aspx.cs" Inherits="Website_Praktikmål1.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
     <script src="App.js"></script>
     <link href="Forside.css" rel="stylesheet" />
     <meta charset="utf-8" />
-
-    <title>Forside</title>
+ <title>Forside</title>
 </head>
 <body>
     <div>
         <div class="navbarBackground">
-            <a href="main.html"> <img class="ZBCLOGO" src="/resource/zbc logo.jpg" alt="Logo" /></a>
+            <a href="main.aspx"> <img class="ZBCLOGO" src="/resource/zbc logo.jpg" alt="Logo" /></a>
             <form class="searchBar">
                 <input id="myInput" class="myInput" type="text" placeholder="Søg efter uddannelse" onkeyup="myFunction()" />
             </form>
@@ -21,8 +23,8 @@
         <nav>
             <div class="scrollbar">
                 <ul class="bar" id="myUL">
-                    <li onmouseover="Hover1()" onmouseout="Hover1hide()"><a href="test.html" target="popup">Ernæringsassistens</a> </li>
-                    <li onmouseover="Hover2()" onmouseout="Hover2hide()"><a href="index2.html" target="_blank">Personvognsmekaniker </a></li>
+                    <li onmouseover="Hover1()" onmouseout="Hover1hide()"><a href="ernæringsassitent.aspx" target="popup">Ernæringsassistens</a> </li>
+                    <li onmouseover="Hover2()" onmouseout="Hover2hide()"><a href="personvognsmekaniker.aspx" target="_blank">Personvognsmekaniker </a></li>
                     <li onmouseover="Hover3()" onmouseout="Hover3hide()"><a href="https://www.zbc.dk/" target="_blank">Datatekniker med speciale i programmering</a></li>
                     <li onmouseover="Hover4()" onmouseout="Hover4hide()"><a href="https://www.zbc.dk/" target="_blank">Datatekniker med speciale i infrastruktur</a></li>
                     <li onmouseover="Hover5()" onmouseout="Hover5hide()"><a href="https://www.zbc.dk/" target="_blank">Social- og sundhedsassitent</a></li>
