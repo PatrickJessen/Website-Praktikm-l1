@@ -48,7 +48,9 @@
                         <h1>Tips og tanker inden 1. skoleperiode </h1>
                     </div>
                     <div>
+                        <asp:PlaceHolder id="TipDesc1" runat="server" />
                         <ul>
+                            
                             <li>
                                 Det er vigtigt, at du løbende reflekterer over, hvad du lærte på grundforløbet
                                 og hvordan du har brugt det i praktikken. Du kan også løbende drøfte med din
@@ -249,9 +251,10 @@
                 <!-- Tips og tanker -->
                 <div class="tips">
                     <div id="TipsTitle">
-                        <h1>Tips og tanker inden 1. skoleperiode </h1>
+                        <h1>Tips og tanker inden 2. skoleperiode </h1>
                     </div>
                     <div>
+                        <asp:PlaceHolder id="TipDesc2" runat="server" />
                         <ul>
                             <li>
                                 I begyndelsen af 2. praktikperiode bør du og din praktikvejleder drøfte din selvevaluering fra 1. skoleperiode og
@@ -464,9 +467,10 @@
                 <!-- Tips og tanker -->
                 <div class="tips">
                     <div id="TipsTitle">
-                        <h1>Tips og tanker inden 1. skoleperiode </h1>
+                        <h1>Tips og tanker inden 3. skoleperiode </h1>
                     </div>
                     <div>
+                        <asp:PlaceHolder id="TipDesc3" runat="server" />
                         <ul>
                             <li>
                                 Det er vigtigt, at du løbende reflekterer over, hvad du lærte på grundforløbet

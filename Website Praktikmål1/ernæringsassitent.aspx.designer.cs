@@ -13,5 +13,32 @@ namespace Website_Praktikmål1
 
     public partial class ernæringsassitent
     {
+
+        /// <summary>
+        /// TipDesc1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder TipDesc1;
+
+        /// <summary>
+        /// TipDesc2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder TipDesc2;
+
+        /// <summary>
+        /// TipDesc3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder TipDesc3;
     }
 }
