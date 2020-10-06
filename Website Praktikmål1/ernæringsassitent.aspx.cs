@@ -5,12 +5,14 @@ using System.Text;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Website_Praktikmål1
 {
+
     public partial class ernæringsassitent : System.Web.UI.Page
     {
-        StringBuilder table = new StringBuilder();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -181,10 +183,12 @@ namespace Website_Praktikmål1
 
         private DataTable GetData3()
         {
+
+            //Connectionstring to database
             string constr = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
             using (SqlConnection con = new SqlConnection(constr))
             {
-
+                //Select Statement from database
                 using (SqlCommand cmd = new SqlCommand("SELECT TipDesc From Tips INNER JOIN Tip ON Tips.TipId = Tip.TipId WHERE EducationNumberId = 2"))
 
 
@@ -207,62 +211,40 @@ namespace Website_Praktikmål1
 
 
 
-        void GoalDesc1()
+        List<Goal> GoalDesc1()
         {
-            if (!this.IsPostBack)
+            List<Goal> goals = new List<Goal>();
+            List<string> GoalTitels = new List<string>();
+            DataTable dt = GetGoalDesc1();           
+
+            //Loops through all rows in datatable
+            foreach (DataRow dr in dt.Rows)
             {
-                //Populating a DataTable from database.
-                DataTable dt = this.GetGoalDesc1();
-
-                //Building an HTML string.
-                StringBuilder html = new StringBuilder();
-
-                //Table start.
-                html.Append("<div class='drops' id='BlueColor'>");
-
-
-
-                //Building the Data rows.
-                foreach (DataRow row in dt.Rows)
+                //Looking in list GoalTitles for the title
+                if (GoalTitels.Contains(dr[0].ToString()))
                 {
-                    html.Append("<div class='drop' draggable='true'>");
-
-                    foreach (DataColumn column in dt.Columns)
+                    //Loops through list of goals
+                    for (int i = 0; i < goals.Count; i++)
                     {
-                        html.Append("<table>");
-                        html.Append("<tr class'dropTitle>");
-                        
-                        html.Append("<tr class='dropTitle'>");
-                        html.Append("<td>");
-                        html.Append("<h3>");
-                        html.Append(row[column.ColumnName]);
-                        html.Append("</h3>");
-                        html.Append("</td>");
-                        html.Append("</tr>");
-
-                        //html.Append("<tr>");
-                        //html.Append("<td>");
-                        //html.Append("<p>");
-                        //html.Append(row[column.ColumnName]);
-                        //html.Append("</p>");
-                        //html.Append("</td>");
-
-                        //html.Append("<td class='checkbox'><input type='checkbox'/>");
-                        //html.Append("<td>");
-                        //html.Append("</tr>");
-                        html.Append("</tr>");
-                        html.Append("</table>");
+                        //If Goals title is the same as row title
+                        if (goals[i].Title == dr[0].ToString())
+                        {
+                            //add description to list of goal on index i
+                            goals[i].description.Add(dr[1].ToString());
+                        }
                     }
-                    html.Append("</div>");
                 }
-
-                //Table end.
-                html.Append("</div>");
-
-                //Append the HTML string to Placeholder.
-                GoalDescText1.Controls.Add(new Literal { Text = html.ToString() });
+                //add the title to goal title list
+                //Making new object of Goal adding to goals
+                //Getting data from the data table
+                else
+                {
+                    GoalTitels.Add(dr[0].ToString());
+                    goals.Add(new Goal(dr[0].ToString()));
+                    goals.Last().description.Add(dr[1].ToString());
+                }
             }
-
+            return goals;
         }
 
         private DataTable GetGoalDesc1()
@@ -271,7 +253,7 @@ namespace Website_Praktikmål1
             using (SqlConnection con = new SqlConnection(constr))
             {
 
-                using (SqlCommand cmd = new SqlCommand("SELECT Goal.GoalTitle  FROM EduGoals INNER JOIN Goal ON EduGoals.GoalId = Goal.GoalId WHERE EducationNumberId = 1;"))
+                using (SqlCommand cmd = new SqlCommand("SELECT Goal.GoalTitle,Goal.GoalDesc  FROM EduGoals INNER JOIN Goal ON EduGoals.GoalId = Goal.GoalId WHERE EducationNumberId = 1;"))
 
 
                 {
@@ -288,5 +270,46 @@ namespace Website_Praktikmål1
                 }
             }
         }
+        void DisplayData()
+        {
+
+            GoalDesc1();
+            StringBuilder html = new StringBuilder();
+
+            html.Append("<div class='drops' id='BlueColor'>");
+            html.Append("<div class='drop' draggable='true'>");
+
+            html.Append("<table>");
+            html.Append("<tr class'dropTitle>");
+
+            html.Append("<tr class='dropTitle'>");
+            html.Append("<td>");
+            html.Append("<h3>");
+            html.Append(goals[i].Title);
+            html.Append("</h3>");
+            html.Append("</td>");
+            html.Append("</tr>");
+
+            html.Append("<tr>");
+            html.Append("<td>");
+            html.Append("<p>");
+            html.Append(goals[i].description);
+            html.Append("</p>");
+            html.Append("</td>");
+
+            html.Append("<td class='checkbox'><input type='checkbox'/>");
+            html.Append("<td>");
+            html.Append("</tr>");
+            html.Append("</tr>");
+            html.Append("</table>");
+
+            html.Append("</div>");
+            html.Append("</div>");
+
+            GoalDescText1.Controls.Add(new Literal { Text = html.ToString() });
+        }
+
+
+        
     }
 }

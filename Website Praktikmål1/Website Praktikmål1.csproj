@@ -85,6 +85,7 @@
     <Compile Include="ernæringsassitent.aspx.designer.cs">
       <DependentUpon>ernæringsassitent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Goal.cs" />
     <Compile Include="personvognsmekaniker.aspx.cs">
       <DependentUpon>personvognsmekaniker.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
