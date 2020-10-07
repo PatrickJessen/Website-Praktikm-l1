@@ -42,6 +42,15 @@ namespace Website_Praktikmål1
         protected global::System.Web.UI.WebControls.PlaceHolder TipDesc2;
 
         /// <summary>
+        /// GoalDescText2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder GoalDescText2;
+
+        /// <summary>
         /// TipDesc3 control.
         /// </summary>
         /// <remarks>
@@ -49,5 +58,14 @@ namespace Website_Praktikmål1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder TipDesc3;
+
+        /// <summary>
+        /// GoalDescText3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder GoalDescText3;
     }
 }
