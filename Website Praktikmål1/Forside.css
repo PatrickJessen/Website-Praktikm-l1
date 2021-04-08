@@ -1,0 +1,159 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    overflow: hidden;
+}
+/*Navigationbar */
+.navbarBackground {
+    background-color: skyblue;
+
+}
+
+/*PAGES LOGO*/
+.ZBCLOGO {
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: solid 2px;
+}
+/*SEACH BAR */
+.searchBar {
+    position: relative;
+    text-align: center;
+    bottom: 60px;
+}
+.myInput {
+    border: solid;
+    height: 40px;
+    width: 20%;
+    
+    bottom: 50px;
+    background-color: white;
+}
+.myBtn{
+    
+}
+/*SCROLLBAR*/
+.scrollbar {
+    background-color: white;
+    font-size: 20px;
+}
+
+    .scrollbar li {
+        border: 1px solid black;
+        padding-left: 10px;
+    }
+
+.bar{
+    height: 700px;
+    border: solid 1.5px;
+}
+
+nav ul {
+    height: 600px;
+    width: 18%;
+}
+
+nav ul {
+    overflow: hidden;
+    overflow-y: scroll;
+    list-style: none;
+}
+/*PICTURES WHEN HOVER OVER WITH MOUSE*/
+.Billeder {
+    position: relative;
+    left: 33%;
+
+    top: -550px;
+}
+.HoverImageStatic {
+
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: 26.7cm;
+    height: 10.21cm;
+}
+.HoverImage {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: 26.7cm;
+    height: 10.21cm;
+}
+
+.HoverImage2 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    width: 26.7cm;
+    height: 10.21cm;
+}
+
+.HoverImage3 {
+    visibility: hidden;
+    position: absolute;
+    height: 10.21cm;
+    width: 26.7cm;
+    border: solid;
+    border-radius: 10px;
+}
+
+.HoverImage4 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+
+.HoverImage5 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+
+.HoverImage6 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+
+.HoverImage7 {
+    visibility: hidden;
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    height: 10.21cm;
+    width: 26.7cm;
+}
+/*CHANGES COLOR ON TEXT IN SCROLLBAR*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*FOOTER*/
+.footer {
+    height: 100vh;
+    background-color: skyblue;
+    text-align:center;
+}
+
+.footerText {
+    padding: 40px;
+    
+}
